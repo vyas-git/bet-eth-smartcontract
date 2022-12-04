@@ -4,31 +4,31 @@
 
 
 ### Setup 
-* Install Truffle 
+* Install Truffle  \
 `
  npm install truffle -g
 `
 
-* Install node_modules
+* Install node_modules \
 `
  npm i 
 `
 
 ### Truffle Compile 
-* Replace private key and infura url in truffle-config.js/truffle.js
+* Replace private key and infura url in truffle-config.js/truffle.js \
 `
 	truffle compile 
 `
 
 ### Deploy 
-
+* Truffle migrate \
 `
  truffle migrate --network goerli
 `
 
 
 ### Start Frontend 
-
+* Start npm project \
 `
 npm start
 `
